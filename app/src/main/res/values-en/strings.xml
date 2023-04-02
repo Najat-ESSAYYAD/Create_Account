@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Account</string>
+    <string name="bienvenu">Welcome</string>
+    <string name="connexion">Login</string>
+    <string name="nom_utilisateur">Username</string>
+    <string name="mot_passe">Password</string>
+    <string name="informations">User information Account   </string>
+    <string name="modifier">Update</string>
+</resources>

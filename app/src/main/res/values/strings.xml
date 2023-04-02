@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Compte</string>
+    <string name="bienvenu">Bienvenu</string>
+    <string name="connexion">Connexion</string>
+    <string name="nom_utilisateur" >Nom d\'utilisateur</string>
+    <string name="mot_passe">Mot de passe</string>
+    <string name="informations">Les informations du compte</string>
+    <string name="modifier">Modifier</string>
+
+</resources>

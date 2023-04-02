@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">الحساب</string>
+    <string name="bienvenu">مرحباً</string>
+    <string name="connexion">تسجيل الدخول</string>
+    <string name="nom_utilisateur">إسم المستخدم</string>
+    <string name="mot_passe">كلمة السر</string>
+    <string name="informations">       معلومات الحساب *****         </string>
+    <string name="modifier">تغير</string>
+</resources>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="@drawable/loginbg"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Textview"
+        android:text="@string/connexion"
+        android:textColor="@color/purple"
+        android:textSize="36dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:layout_marginTop="150dp"/>
+
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="313dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/custom_edittext"
+        android:drawableLeft="@drawable/baseline_person_24"
+        android:drawablePadding="8dp"
+        android:hint="@string/nom_utilisateur"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/cardview_dark_background"
+        tools:context=".MainActivity" />
+
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="313dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="85dp"
+        android:background="@drawable/custom_edittext"
+        android:drawableLeft="@drawable/baseline_lock_24"
+        android:drawablePadding="8dp"
+        android:hint="@string/mot_passe"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/cardview_dark_background"
+        tools:context=".MainActivity"/>
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="313dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="60dp"
+        android:backgroundTint="@color/purple"
+        android:text="@string/connexion"
+        android:textSize="18dp"
+        app:cornerRadius="20dp" />
+
+
+</LinearLayout>
